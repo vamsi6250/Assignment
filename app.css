@@ -1,0 +1,32 @@
+.label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main-heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.usercard {
+    background-color: #ffffff;
+    border-style: solid;
+    margin: 5px;
+}
+
+.cad-heading {
+    font-size: 15px;
+}
+
+.text-logo {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+}

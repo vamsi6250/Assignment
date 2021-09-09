@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ram app</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg></script>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row" id="userDetails">
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="top-bar">
+                    <h1 class="main-heading">Add User</h1>
+                    <i class="fas fa-times text-center"></i>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <label class="label" for="firstName">First Name</label>
+                    <input id="firstName" type="text" class="" placeholder="Enter your first name" />
+                </div>
+                <div class="d-flex flex-column ">
+                    <label class="label" for="lastName">Last Name</label>
+                    <input id="lastName" type="text" class="" placeholder="Enter your Last Name" />
+                </div>
+                <div class="d-flex flex-column ">
+                    <label class="label" for="Profiles">Profiles</label>
+                    <select id="Profiles">
+                            <option value="font end">font end</option>
+                            <option value="back end">back end</option>
+                        </select>
+                </div>
+                <div class="d-flex flex-column ">
+                    <label class="label" for="username">Username</label>
+                    <input id="username" type="text" class="" placeholder="Enter username" />
+                </div>
+                <div class="d-flex flex-column ">
+                    <label class="label" for="email">Email Address</label>
+                    <input id="email" type="text" class="" placeholder="Enter your email id" />
+                </div>
+                <div class="d-flex flex-column mb-2">
+                    <label class="label" for="password">password</label>
+                    <input id="password" type="text" class="" placeholder="Enter password" />
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button id="cancel" class="btn btn-outline-dark mr-2">Cancel</button>
+                    <button id="add" class="btn btn-success">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
